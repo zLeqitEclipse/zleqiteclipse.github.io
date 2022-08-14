@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>imp/kWh Calculator</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="text-end heading" style="margin: 10px;"><a href="https://github.com/zLeqitEclipse" target="_blank"><i class="fab fa-github text-end text-dark" style="font-size: 40px;"></i></a></div>
+    <div>
+        <h1 style="margin: 10px;">imp/kWh Calculator</h1>
+    </div>
+    <div style="padding: 10px;">
+        <h4>Meter Settings</h4><label class="form-label">imp/kWh:</label><input type="number" id="impkWhInput" min="0" step="100" name="impkWhInput" value="1000" style="margin: 5px;">
+    </div>
+    <div style="padding: 10px;">
+        <h4>Impulse Settings</h4><select id="dropdownSelectImpType">
+            <option value="1" selected="">Impulses per Minute (BPM)</option>
+            <option value="2">Milliseconds between Impulses</option>
+        </select><input type="number" id="impMinInput" min="0" step="1" name="impkWhInput" style="margin: 5px;"><label class="form-label" id="impMinUnit">imp/min</label>
+    </div>
+    <div style="padding: 10px;">
+        <h4>Output</h4><label class="form-label" id="outputLabel" style="font-size: 20px;font-weight: bold;"></label>
+    </div><button class="btn btn-primary" id="btnCalc" type="button" style="margin: 12px;" onclick="btnCalcFunc()">Calculate</button><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/calc.js"></script>
+</body>
+
+</html>
