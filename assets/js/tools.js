@@ -1,3 +1,3 @@
 function clickImpkWhCalc() {
-    window.location.href = "/tools/impkWh";
+    window.location.href = "tools/impkWh";
 }
