@@ -1,3 +1,3 @@
 function clickImpkWhCalc() {
-    window.location.href = "/impkWh";
+    window.location.href = "https://zleqiteclipse.github.io/tools/impkWh";
 }
