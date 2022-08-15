@@ -1,0 +1,25 @@
+#page-top {
+  background-size: 100%;
+}
+
+.hover-highlight:hover::after {
+  background-color: white;
+}
+
+.tool-card {
+  height: 200px;
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+  padding-top: 10px;
+  background: rgba(0,0,0,0.15);
+  backdrop-filter: blur(2px);
+  transition: all .1s linear;
+}
+
+.tool-card:hover {
+  height: 225px;
+  width: 425px;
+  background: rgba(0,0,0,0.30);
+}
+
