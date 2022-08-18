@@ -5,7 +5,7 @@ $(document).ready(function(){
         var value = e.value;
 
         if (value == "1") {
-            document.getElementById('impMinUnit').innerHTML = "imp/kWh";
+            document.getElementById('impMinUnit').innerHTML = "imp/min";
         } else if (value == "2") {
             document.getElementById('impMinUnit').innerHTML = "ms";
         } else {
